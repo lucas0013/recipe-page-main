@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-weight: 1 1000;
+}
+@font-face {
+  font-family: "YoungSerif";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  font-weight: 400;
+}
+body {
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  padding: 30px;
+  width: 720px;
+}
+
+.image {
+  border-radius: 10px;
+  width: 650px;
+  display: flex;
+  align-self: center;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-family: "YoungSerif";
+}
+
+p {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 80%;
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.preparation-time h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit";
+}
+.preparation-time ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+h2 {
+  font-family: "YoungSerif";
+  color: hsl(14, 45%, 36%);
+}
+
+li {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 80%;
+  line-height: 2;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
+
+table {
+  font-family: "Outfit";
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+table td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+  padding: 10px;
+}
+table tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+table th {
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+  opacity: 0.9;
+  padding-left: 20px;
+}
+
+.attribution {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  font-family: "Outfit";
+}
+.attribution a {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
