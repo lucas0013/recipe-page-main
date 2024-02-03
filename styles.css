@@ -28,12 +28,12 @@ body {
   flex-direction: column;
   justify-content: stretch;
   padding: 30px;
-  width: 720px;
+  width: 50%;
 }
 
 .image {
   border-radius: 10px;
-  width: 650px;
+  width: 90%;
   display: flex;
   align-self: center;
 }
